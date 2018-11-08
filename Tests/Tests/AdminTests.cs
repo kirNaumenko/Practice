@@ -8,8 +8,11 @@ namespace Tests.Tests
     public class AdminTests
     {
 
-		[Test]
-		public void 
+	    [Test]
+	    public void Test()
+	    {
+
+	    }
 
     }
 }
