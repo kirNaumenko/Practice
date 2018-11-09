@@ -1,13 +1,6 @@
-using System.IO;
-using System.Reflection;
 using NUnit.Framework;
-using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.Firefox;
-using Utilities;
-using Utilities.PageObjects;
 
-namespace Tests
+namespace Core
 {
 	[TestFixture]
 	public class BaseTest : InfrastructureObject
@@ -17,7 +10,6 @@ namespace Tests
 		public void Initialize()
 		{
 		    WebDriver.Navigate().GoToUrl("https://opensource-demo.orangehrmlive.com/");
-			new LoginPage().LogIn();
 	    }
 
 		[TearDown]

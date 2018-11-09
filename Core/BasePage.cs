@@ -1,12 +1,6 @@
 ﻿using System;
-using System.IO;
-using System.Reflection;
-using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.Edge;
-using OpenQA.Selenium.Support.PageObjects;
 
-namespace Utilities
+namespace Core
 {
     public abstract class BasePage : InfrastructureObject
 	{

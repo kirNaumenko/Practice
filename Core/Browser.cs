@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
+﻿using System.IO;
 using System.Reflection;
-using System.Text;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Firefox;
 
-namespace Utilities
+namespace Core
 {
     public class Browser
     {
